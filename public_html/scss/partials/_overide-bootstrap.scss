@@ -2,6 +2,7 @@ $font-size-base:  1.6rem;
 
 $gray-900: #1e1e1e;
 
+$primary: #1e1e1e;
 $link-color: $gray-900;
 $link-hover-decoration:none;
 
@@ -20,10 +21,32 @@ $spacers: map-merge(
 7: ($spacer * 3.5),
 8: ($spacer * 4),
 9: ($spacer * 4.5),
-10: ($spacer * 5)
+10:($spacer * 5)
 ),
 $spacers
 );
 
 
 $grid-gutter-width:12px;
+
+$grid-breakpoints: (
+xs: 0,
+xm: 450px,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px
+);
+
+
+$container-max-widths: (
+//sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px
+) !default;
+
+
+$navbar-light-color: $gray-900;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;

@@ -1,0 +1,44 @@
+$toggler-bg:#D54857;
+
+
+header{
+
+    .navbar-brand{
+        max-width: 50%;
+    } //navbar-brand
+    .navbar-toggler{
+        border:none;
+        span{
+            display: block;
+            width: 30px;
+            height: 3px;
+            margin-bottom: 5px;
+            background-color: $toggler-bg;
+            &:last-of-type{
+                margin-bottom: 0px;  
+            }
+
+        }//span
+    }//navbar-toggler
+    .navbar-nav{
+        nav-link{
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            text-align: center;
+
+        }//nav-link
+    }//navbar-nav
+}//header
+
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+    color: $purple;
+}
+
+@media(min-width:450px){
+    header{
+        .navbar-brand img{
+            max-width: 50%;
+        }
+    }
+}
