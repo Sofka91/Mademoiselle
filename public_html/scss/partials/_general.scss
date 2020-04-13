@@ -14,14 +14,15 @@ body{
     color: $primary;
 }
 
-h1, h3{
+h1, h3, h4{
     font-family: 'BodoniSvtyTwoITCTT-Book';
+    line-height: 45px;
+    letter-spacing: 5px;
 }
 
 h1{
     font-size: 6rem;
     line-height: 8.4rem;
-    letter-spacing: 20px;
 }
 
 h2{
