@@ -1,0 +1,35 @@
+$bg-info:#ECD9D9;
+
+.contact-section{
+    padding-top: 100px;
+}
+
+.company-info{
+    background-color: $bg-info;
+}
+
+.company-info{
+    .company-phone{
+        opacity: 100%;
+    }
+}
+
+.company-info{
+    .company-email{
+        opacity: 100%;
+    }
+}
+
+.company-info{
+    padding: 63px 0 60px;
+}
+
+.company-info{
+    .company-address,
+    .company-email,
+    .company-phone{
+        font-size: 2.4rem;
+        line-height: 2.5rem;
+        font-weight: 300;
+    } 
+}

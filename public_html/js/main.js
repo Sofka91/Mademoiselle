@@ -1,6 +1,20 @@
-$(document).ready(function(){
-    
-    
+$(document).ready(function () {
+
+
+    function checkHeader() {
+        let headerHeight = $('header').innerHeight();
+        $('main').css('margin-top', headerHeight);
+    }
+
+    checkHeader();
+    $(window).resize(function () {
+        checkHeader();
+    });
+
+
+
+
+
     function animation() {
         var windowHeight = $(window).height();
         var scroll = $(window).scrollTop();
@@ -18,11 +32,20 @@ $(document).ready(function(){
     $(window).scroll(function () {
         animation();
     });
-    
-    
-    
-    
-    
-    
+
+    if ($('.member-slider').length > 0) {
+        $('.member-slider').owlCarousel({
+            responsive: {
+                0: {
+                    items: 1
+                }
+            }
+        });
+
+    }
+
+
+
+
 });
 

@@ -7935,7 +7935,8 @@ header .navbar-nav nav-link {
     margin-left: 73px !important; } }
 
 .lead-section {
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 @media (min-width: 320px) {
   .lead-section h1 {
@@ -8102,10 +8103,13 @@ header .navbar-nav nav-link {
   padding-right: 190px;
   text-align: left; }
 
+.owl-carousel {
+  display: block; }
+
 .social-section {
   margin-top: 116px; }
 
-.social {
+.social-section .social a {
   color: #ECD9D9; }
 
 .social a {
@@ -8115,3 +8119,95 @@ header .navbar-nav nav-link {
   font-size: 12px;
   line-height: 21px;
   letter-spacing: -0.17px; }
+
+.section-beauty .section-beauty-data .section-beauty-item h2 {
+  margin-top: 91px; }
+
+@media (max-width: 320px) {
+  .section-beauty .section-beauty-data .section-beauty-item h2 {
+    margin-top: 30px; } }
+
+.section-beauty .beauty-item .beauty-content {
+  bottom: -5%;
+  left: 5%;
+  right: 5%; }
+
+@media (min-width: 768px) {
+  .section-beauty .beauty-item .beauty-content {
+    bottom: -1%;
+    left: 5%;
+    right: 5%; } }
+
+.section-beauty-item .beauty-item:first-of-type {
+  display: inline-block;
+  padding-top: 43px; }
+
+.section-beauty .input-group {
+  margin-top: 91px; }
+
+@media (max-width: 320px) {
+  .section-beauty .input-group {
+    margin-top: 30px; } }
+
+.section-beauty .section-beauty-item:first-of-type img {
+  margin-bottom: 66px; }
+
+@media (max-width: 320px) {
+  .section-beauty .section-beauty-item:first-of-type img {
+    margin-bottom: 30px; } }
+
+@media (max-width: 992px) {
+  .section-beauty .section-beauty-item:first-of-type img {
+    margin-bottom: 10px; } }
+
+.section-beauty .section-beauty-item .w-50 {
+  width: 100% !important; }
+
+.blog-section {
+  margin-top: 165px; }
+
+.blog-section .blog-item .h2 {
+  line-height: 50px;
+  text-align: left; }
+
+.blog-section .blog-item .p:nth-of-type(4) {
+  margin-right: 107px; }
+
+.blog-content .blog-data .p {
+  margin-top: 97px;
+  margin-bottom: 52px; }
+
+.blog-content .blog-data .tags-item .p {
+  font-family: 'BodoniSvtyTwoITCTT-Book'; }
+
+.services-section .services-data:first-of-type {
+  margin-top: 88px; }
+
+@media (max-width: 320px) {
+  .services-section .services-data:first-of-type {
+    margin-top: 30px; } }
+
+.services-single-section .services-single-content {
+  padding-top: 170px; }
+
+.contact-section {
+  padding-top: 100px; }
+
+.company-info {
+  background-color: #ECD9D9; }
+
+.company-info .company-phone {
+  opacity: 100%; }
+
+.company-info .company-email {
+  opacity: 100%; }
+
+.company-info {
+  padding: 63px 0 60px; }
+
+.company-info .company-address,
+.company-info .company-email,
+.company-info .company-phone {
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  font-weight: 300; }

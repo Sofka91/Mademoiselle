@@ -2,6 +2,7 @@
 
 .lead-section{
     background-size: cover;
+    background-position: center;
 }
 
 @media(min-width: 320px){
@@ -312,3 +313,7 @@
     }
 }
 
+
+.owl-carousel{
+    display: block;
+}

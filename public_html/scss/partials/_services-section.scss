@@ -1,0 +1,17 @@
+
+
+.services-section{
+    .services-data:first-of-type{
+        margin-top: 88px;
+    }
+}
+
+@media(max-width:320px){
+    .services-section{
+    .services-data:first-of-type{
+        margin-top: 30px;
+    }
+}
+    
+    
+}
