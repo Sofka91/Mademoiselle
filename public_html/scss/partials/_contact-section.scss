@@ -1,7 +1,157 @@
 $bg-info:#ECD9D9;
 
+
+//contact section start
 .contact-section{
     padding-top: 100px;
+}
+
+
+@media(min-width:320px){
+    .contact-section{
+        padding-top: 50px;
+    }& .btn-link{
+        margin-bottom: 20px;
+    }
+}
+
+
+.contact-section{
+    .map-field{
+        margin-bottom: 110px;
+    }
+}
+
+.contact-section{
+    .contact-form{
+        margin-right: 111px;
+    }
+}
+
+.contact-section{
+    .embed-responsive{
+        left: 50%;
+        top: 15%;
+        bottom: 3%;
+    }
+}
+
+
+@media(max-width:320px){
+    .contact-section{
+        .embed-responsive{
+            top: 130%;
+            bottom: -75%;
+            left: 0%;
+        }
+    } 
+}
+
+@media(min-width:576px){
+    .contact-section{
+        .embed-responsive{
+            top: 114%;
+            bottom: -71%;
+            left: 0%;
+        }
+    } 
+}
+
+@media(min-width:768px){
+    .contact-section{
+        .embed-responsive{
+            left: 50%;
+            top: 15%;
+            bottom: 3%;
+        }
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//contact section end
+
+
+
+//company info start
+
+@media(max-width:320px){
+    .company-info{
+        margin-top: 200px;
+    }
+} 
+
+@media(max-width:576px){
+    .company-info{
+        margin-top: 200px;
+    }
+} 
+
+//company info start
+
+
+
+
+.contact-section{
+    .contact-form{
+        .form-control{
+            background-color: rgba(#253D61, 0.2);
+            font-weight: 300;
+            color: #1E1E1E;
+            line-height: 2.5rem;
+            letter-spacing: -0.23px;
+            border: 1px solid transparent;
+        }
+    }
+}
+
+
+
+
+
+@media(max-width:320px){
+    .contact-section{
+        .contact-form{
+            margin-right: 20px;
+        }
+    }
+}
+
+@media(max-width:320px){
+    .contact-section{
+        .embed-responsive{
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media(max-width:320px){
+    .social-section{
+        margin-top: 50px;
+    }
+}
+
+
+.contact-section{
+    .contact-form{
+        .btn-link{
+            font-size: 14px;
+            padding: 13px 30px 15px 30px;
+        }
+    }
 }
 
 .company-info{
@@ -33,3 +183,5 @@ $bg-info:#ECD9D9;
         font-weight: 300;
     } 
 }
+
+

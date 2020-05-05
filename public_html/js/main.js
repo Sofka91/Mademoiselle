@@ -1,6 +1,9 @@
 $(document).ready(function () {
 
 
+
+
+
     function checkHeader() {
         let headerHeight = $('header').innerHeight();
         $('main').css('margin-top', headerHeight);
@@ -14,6 +17,10 @@ $(document).ready(function () {
 
 
 
+
+
+
+//ANIMATIONS
 
     function animation() {
         var windowHeight = $(window).height();
@@ -33,8 +40,16 @@ $(document).ready(function () {
         animation();
     });
 
+
+
+
+    //OWL-CAROUSEL
+
+
     if ($('.member-slider').length > 0) {
         $('.member-slider').owlCarousel({
+            autoplay: true,
+            loop: true,
             responsive: {
                 0: {
                     items: 1
@@ -43,6 +58,78 @@ $(document).ready(function () {
         });
 
     }
+
+
+
+
+
+
+
+
+
+    //FORM VALIDATION
+
+
+    if ($('.contact-form').length > 0) {
+
+        //FORM VALIDATION
+        $(function () {
+            $(".contact-form").validate({
+                highlight: function (element) {
+                    $(element).addClass("is-invalid").removeClass("is-valid");
+                },
+                unhighlight: function (element) {
+                    $(element).removeClass('is-invalid').addClass('is-valid');
+                },
+                rules: {
+                    name_and_surname: {
+                        required: true
+                    },
+                    your_email: {
+                        required: true,
+                        email: true
+                    },
+                    subject: {
+                        required: true
+                    },
+                    your_message: {
+                        required: true
+                    }
+                },
+                messages: {
+                    name_and_surname: {
+                        required: 'Field is required'
+                    },
+                    your_email: {
+                        required: 'Field is required',
+                        email: 'Please enter a valid email address'
+                    },
+                    subject: {
+                        required: 'Field is required'
+                    },
+                    your_message: {
+                        required: 'Field is required'
+                    }
+
+                },
+                errorElement: 'p',
+                errorPlacement: function (error, element) {
+                    error.appendTo($(element).closest('.form-group').find('.invalid-feedback'));
+                }
+
+            });
+        });
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 

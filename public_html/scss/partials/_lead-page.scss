@@ -1,4 +1,4 @@
-//LEAD SECTION
+//lead section start
 
 .lead-section{
     background-size: cover;
@@ -31,7 +31,11 @@
     }
 }
 
-//TREND SECTION
+
+//lead section end
+
+
+//trend section start
 
 .trend-section{
     .trend-title{
@@ -40,6 +44,18 @@
         line-height: 28px;
         letter-spacing: 5px;
         text-align: left;
+        
+    }
+}
+
+.trend-section{
+    .trend-title::after{
+        content: '';
+        display: block;
+        padding-top: 10px;
+        width: 74px;
+        height: 1px;
+        border-bottom: 1px solid #ECD9D9;
     }
 }
 
@@ -70,7 +86,12 @@
         margin-top: 5rem!important;
     }
 }
-//SERVICES SECTION
+
+//trend section end
+
+
+
+//services section start
 
 
 .services-section{
@@ -80,6 +101,19 @@
         letter-spacing: 5px;
     }
 }
+
+.services-section{
+    h4::after{
+        content: '';
+        display: block;
+        padding-top: 10px;
+        width: 74px;
+        height: 1px;
+        border-bottom: 1px solid #ECD9D9;
+    }
+}
+
+
 
 .services-section .services-data h3{
     font-family: $default-font;
@@ -219,12 +253,25 @@
 }
 
 
-//MEMBER SECTION
+//services section end
+
+//member section start
 
 .member-section h4{
     margin-top: 111px;
     margin-bottom: 54px;
 
+}
+
+.member-section{
+    h4::after{
+        content: '';
+        display: block;
+        padding-top: 10px;
+        width: 74px;
+        height: 1px;
+        border-bottom: 1px solid #ECD9D9;
+    }
 }
 
 @media(max-width:320px){
@@ -317,3 +364,20 @@
 .owl-carousel{
     display: block;
 }
+
+
+@media(min-width:992px){
+    .member-slider{
+        position: relative;
+    }& .member-section{
+        .owl-dots{
+            position: absolute;
+            top: 85%;
+            right: 44%;
+
+        }
+    }
+}
+
+
+//member section end

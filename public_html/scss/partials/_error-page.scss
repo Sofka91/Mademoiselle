@@ -1,0 +1,45 @@
+
+
+//lead section start
+@media(min-width:320px){
+    .lead-section{
+        position: relative;
+    }& .lead-section{
+        .btn-link{
+            position: absolute;
+            font-size: 1rem;
+            top: 80%;
+            right: 35%;
+        }
+    }
+}
+
+@media(min-width:576px){
+    .lead-section{
+        position: relative;
+    }& .lead-section{
+        .btn-link{
+            position: absolute;
+            font-size: 1.5rem;
+            top: 70%;
+            right: 42%;
+        }
+    }
+}
+
+@media(min-width:768px){
+    .lead-section{
+        position: relative;
+    }& .lead-section{
+        .btn-link{
+            position: absolute;
+            font-size: 1.5rem;
+            top: 70%;
+            right: 45%;
+        }
+    }
+}
+
+
+//lead section end
+

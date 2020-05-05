@@ -1,0 +1,21 @@
+
+//pagination start
+
+.pagination a{
+    border: 0;
+}
+
+
+@media(min-width:320px){
+    .pagination{
+        margin-top: 50px;
+    } 
+}
+
+@media(min-width:768px){
+    .pagination{
+        margin-top: 70px;
+    } 
+}
+
+//pagination end
