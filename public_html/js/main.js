@@ -61,12 +61,6 @@ $(document).ready(function () {
 
 
 
-
-
-
-
-
-
     //FORM VALIDATION
 
 
@@ -82,32 +76,32 @@ $(document).ready(function () {
                     $(element).removeClass('is-invalid').addClass('is-valid');
                 },
                 rules: {
-                    name_and_surname: {
+                    name: {
                         required: true
                     },
-                    your_email: {
+                    email: {
                         required: true,
                         email: true
                     },
                     subject: {
                         required: true
                     },
-                    your_message: {
+                    message: {
                         required: true
                     }
                 },
                 messages: {
-                    name_and_surname: {
+                    name: {
                         required: 'Field is required'
                     },
-                    your_email: {
+                    email: {
                         required: 'Field is required',
                         email: 'Please enter a valid email address'
                     },
                     subject: {
                         required: 'Field is required'
                     },
-                    your_message: {
+                    message: {
                         required: 'Field is required'
                     }
 

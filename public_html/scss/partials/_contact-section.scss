@@ -16,11 +16,7 @@ $bg-info:#ECD9D9;
 }
 
 
-.contact-section{
-    .map-field{
-        margin-bottom: 110px;
-    }
-}
+
 
 .contact-section{
     .contact-form{
@@ -28,56 +24,41 @@ $bg-info:#ECD9D9;
     }
 }
 
-.contact-section{
-    .embed-responsive{
-        left: 50%;
-        top: 15%;
-        bottom: 3%;
-    }
-}
 
 
-@media(max-width:320px){
-    .contact-section{
-        .embed-responsive{
-            top: 130%;
-            bottom: -75%;
-            left: 0%;
-        }
-    } 
-}
 
 @media(min-width:576px){
     .contact-section{
         .embed-responsive{
-            top: 114%;
-            bottom: -71%;
-            left: 0%;
+            margin-bottom: 20px;
         }
-    } 
+    }
 }
+
+
+
 
 @media(min-width:768px){
     .contact-section{
         .embed-responsive{
+            position: absolute;
             left: 50%;
-            top: 15%;
-            bottom: 3%;
+            top: 20%;
+            bottom: -21%;
         }
     } 
 }
 
-
-
-
-
-
-
-
-
-
-
-
+@media(min-width:992px){
+    .contact-section{
+        .embed-responsive{
+            position: absolute;
+            left: 50%;
+            top: 20%;
+            bottom: 20%;
+        }
+    } 
+}
 
 
 
@@ -86,19 +67,8 @@ $bg-info:#ECD9D9;
 
 
 
-//company info start
 
-@media(max-width:320px){
-    .company-info{
-        margin-top: 200px;
-    }
-} 
 
-@media(max-width:576px){
-    .company-info{
-        margin-top: 200px;
-    }
-} 
 
 //company info start
 
@@ -138,18 +108,22 @@ $bg-info:#ECD9D9;
     }
 }
 
-@media(max-width:320px){
-    .social-section{
-        margin-top: 50px;
-    }
-}
+
 
 
 .contact-section{
     .contact-form{
-        .btn-link{
+        .btn{
             font-size: 14px;
             padding: 13px 30px 15px 30px;
+        } 
+    }
+}
+
+.contact-section{
+    .contact-form{
+        .btn-outline-dark:hover{
+            color: #1E1E1E;
         }
     }
 }
