@@ -26,9 +26,9 @@
 .section-beauty{
     .beauty-item{
         .beauty-content{
-            bottom: -5%;
             left: 5%;
             right: 5%;
+            margin-top: -90px;
         }
     }
 }
@@ -37,9 +37,9 @@
     .section-beauty{
         .beauty-item{
             .beauty-content{
-                bottom: -1%;
                 left: 5%;
                 right: 5%;
+                margin-top: -90px;
             }
         }
     }
@@ -100,6 +100,27 @@
         }
     }
 }
+
+
+.section-beauty{
+    .section-beauty-item{
+        .form-control{
+            padding: 10px;
+        }
+    }
+}
+
+.section-beauty{
+    .section-beauty-item{
+        .search-item{
+            left: 90%;
+            bottom: 40%;
+            width: 16px;
+            height: 16px;
+        }
+    }
+}
+
 
 
 //section beauty end
